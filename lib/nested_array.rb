@@ -7,6 +7,7 @@ ORGANIC_PRODUCE = [
   "Avocadoes",
   "Asparagus"
 ]
+ORGANIC_PRODUCE[1][1] = "Cherries"
 
 CONVENTIONAL_PRODUCE = [
   "Grapefruit",
@@ -15,6 +16,7 @@ CONVENTIONAL_PRODUCE = [
   "Watermelon",
   "Eggplant"
 ]
+ORGANIC_PRODUCE = [0][4] = "Carrot"
 
 def assembled_matrix
   # Build an array that contains both of the above arrays
